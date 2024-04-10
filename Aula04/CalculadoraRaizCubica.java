@@ -1,4 +1,4 @@
-package Algoritimos;
+package Aula04;
 
 import java.util.Scanner;
 

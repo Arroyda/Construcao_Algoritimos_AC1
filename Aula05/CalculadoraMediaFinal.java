@@ -1,8 +1,8 @@
-package Algoritimos;
+package Aula05;
 
 import java.util.Scanner;
 
-public class Aula2 {
+public class CalculadoraMediaFinal {
     public static void main(String[] args){
        Scanner input = new Scanner(System.in);
 

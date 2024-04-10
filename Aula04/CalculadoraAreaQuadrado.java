@@ -1,8 +1,8 @@
-package Algoritimos;
+package Aula04;
 
 import java.util.Scanner;
 
-public class CalculadoraPerimetroQuadrado {
+public class CalculadoraAreaQuadrado {
      public static void main(String[]args){
         Scanner scanner = new Scanner(System.in);
         
@@ -12,8 +12,8 @@ public class CalculadoraPerimetroQuadrado {
         System.out.println("Digite o tamanho de 1 dos lados do Quadrado:");
         int base = scanner.nextInt();
             
-        //Faz a multiplicação do Perimetro do Quadrado
-        int multiplicacao = (base) * (base) * (base) * (base);
+        //Faz a multiplicação do Perimetro do Retangulo
+        int multiplicacao = (base) * (base);
         System.out.println("O Perimetro do Quadrado é = " + multiplicacao);
         
     }
